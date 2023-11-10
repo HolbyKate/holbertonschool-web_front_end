@@ -524,6 +524,10 @@ ul.row {
     overflow: hidden;
 }
 
+.card-work:hover .card-outer {
+    transform: scale(0.95);
+  }
+
 .card-work .card-image img {
     height: 30rem;
     width: 100%;
