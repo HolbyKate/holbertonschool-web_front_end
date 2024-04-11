@@ -1,0 +1,11 @@
+/* Assign margin or padding */
+$size: 0px;
+$size2: 10px;
+
+.body {
+    margin: $size;
+    padding: $size;
+}
+.body p {
+    margin: $size2;
+}
