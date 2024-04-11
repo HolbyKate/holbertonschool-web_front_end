@@ -1,0 +1,13 @@
+/* Assign text color and background color to the HTML tags */
+$base-color: #3D3D3D;
+$base-background-color: #6D6D6D;
+
+body {
+    color: $base-color;
+    background-color: $base-background-color; }
+
+p {
+    color: $base-color; }
+
+h2 {
+    background-color: $base-background-color; }
