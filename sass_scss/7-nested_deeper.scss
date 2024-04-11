@@ -1,0 +1,15 @@
+/* Nested and nesteed tag on body and class */
+
+$body-size: 14px;
+$body-h1-size: 16px;
+$body-h1-smaller: 12px;
+
+body {
+    font-size: $body-size;
+    h1 {
+        font-size: $body-h1-size;
+    &.smaller {
+            font-size: $body-h1-smaller;
+        }
+    }
+}
