@@ -1,0 +1,14 @@
+/* Extended list tag */
+$list-size-all: 12px;
+$list-color-success: #00FF00;
+$list-color-warning: #FF0000;
+
+.info, .success, .warning {
+    font-size: $list-size-all;
+}
+    .success{
+        color: $list-color-success;
+    }
+    .warning {
+            color: $list-color-warning;
+        }
