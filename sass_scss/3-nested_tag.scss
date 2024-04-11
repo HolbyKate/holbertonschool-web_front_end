@@ -2,10 +2,9 @@
 $size: 0px;
 $size2: 10px;
 
-.body {
+body {
     margin: $size;
-    padding: $size;
-}
-.body p {
+    padding: $size;}
+    body p {
     margin: $size2;
 }
