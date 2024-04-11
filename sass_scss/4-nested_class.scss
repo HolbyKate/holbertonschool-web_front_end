@@ -1,0 +1,10 @@
+/* Assign text color in class */
+$base-color: #3D3D3D;
+$text-color: #FF0000;
+
+body {
+    color: $base-color;
+    .red {
+        color: $text-color;
+    }
+}
