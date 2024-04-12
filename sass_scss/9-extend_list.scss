@@ -1,14 +1,15 @@
-/* Extended list tag */
-$list-size-all: 12px;
-$list-color-success: #00FF00;
-$list-color-warning: #FF0000;
+/* Extended class tag */
 
-.info, .success, .warning {
-    font-size: $list-size-all;
+.info {
+    font-size: 12px;
 }
-    .success{
-        color: $list-color-success;
-    }
-    .warning {
-            color: $list-color-warning;
-        }
+
+.success {
+    @extend .info;
+    color: #00FF00;
+}
+
+.warning {
+    @extend .info;
+    color: #FF0000;
+}
