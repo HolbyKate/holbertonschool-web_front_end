@@ -521,7 +521,7 @@ ul.row {
     transition: background .2s ease-out;
 }
 
-.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+.header .menu-icon .navicon::before, .header .menu-icon .navicon::after {
     content: "";
     display: block;
     width: 100%;
@@ -531,11 +531,11 @@ ul.row {
     transition: all .2s ease-out;
 }
 
-.header .menu-icon .navicon:before {
+.header .menu-icon .navicon::before {
     top: .7rem;
 }
 
-.header .menu-icon .navicon:after {
+.header .menu-icon .navicon::after {
     top: -.7rem;
 }
 
