@@ -352,15 +352,16 @@ a:active {
 }
 
 @media (max-width: 480px) {
-    :html {
+    html {
         font-size: 57%;
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    :html {
+    html {
         font-size: 60%;
     }
+}
 
 
 /* Helpers
