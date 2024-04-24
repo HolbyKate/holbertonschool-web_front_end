@@ -354,6 +354,10 @@ a:active {
 /* Helpers
       ============================= */
 
+.main img {
+    width: 100%;
+    height: auto;
+}
 .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
     height: auto;
@@ -609,7 +613,7 @@ ul.row {
 /* Section Latest news
       ============================= */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .section-latest-news .row {
     flex-direction: column;
 }
