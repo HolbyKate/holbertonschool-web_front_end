@@ -26,7 +26,7 @@
         function showCookies() {
             const Cookies = document.cookie;
             const p = document.createElement("p");
-            p.innerHTML = "Cookies: " + cookies;
+            p.innerHTML = `Email: ${email}- Firstname: ${firstname}`;
             document.body.appendChild(p);
         }
         function getCookie(name) {
