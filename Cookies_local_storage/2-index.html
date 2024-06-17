@@ -21,6 +21,8 @@
             const email = document.getElementById("email").value;
             const expirationDate = new Data();
             expirationDate.setDate(expirationDate.getDate() + 10);
+            document.cookie = `${firstName};${expirationDate}; path=/`;
+            document.cookie = `${email};${expirationDate}; path=/`;
             console.log("setCookies function called");
         }
         function showCookies() {
